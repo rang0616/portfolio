@@ -2,29 +2,24 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background: #0076BA;
+    background: linear-gradient(90deg, #3CC8C8, #008C8C);
     color: white;
+    height: 40px;
     padding: 20px;
+    margin: 0;
     text-align: center;
 }
 
 section {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 850px;
+    margin: 30px auto;
     padding: 20px;
     background: white;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2, h3 {
-    color: #0076BA;
 }
 
 ul {
@@ -54,4 +49,12 @@ footer {
     background: #0076BA;
     color: white;
     margin-top: 20px;
+}
+
+p {
+    margin: 5px 5px 5px 5px;
+}
+
+.intro-text {
+    margin-left: 40px;
 }
