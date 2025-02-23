@@ -58,3 +58,27 @@ p {
 .intro-text {
     margin-left: 40px;
 }
+
+
+@media (max-width: 768px) {
+    .profile-pic {
+        display: none; /* 모바일에서는 프로필 사진 숨김 */
+    }
+
+    .intro {
+        flex-direction: column; /* 모바일에서는 글씨를 수직 정렬 */
+        text-align: center;
+    }
+
+    .intro-text {
+        font-size: 20px; /* 모바일에서 글씨 크기 조정 */
+    }
+
+    .intro-text h2 {
+        font-size: 28px;
+    }
+
+    .intro-text p {
+        font-size: 24px;
+    }
+}
