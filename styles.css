@@ -55,8 +55,13 @@ p {
     margin: 5px 5px 5px 5px;
 }
 
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
 .intro-text {
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 
