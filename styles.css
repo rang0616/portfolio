@@ -67,11 +67,12 @@ p {
 
     .intro {
         flex-direction: column; /* 모바일에서는 글씨를 수직 정렬 */
-        text-align: center;
+        text-align: left;
     }
 
     .intro-text {
-        font-size: 20px; /* 모바일에서 글씨 크기 조정 */
+        margin-left: 0;
+        font-size: 15px; /* 모바일에서 글씨 크기 조정 */
     }
 
     .intro-text h2 {
