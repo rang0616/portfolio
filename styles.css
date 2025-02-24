@@ -68,6 +68,8 @@ p {
     .intro {
         flex-direction: column; /* 모바일에서는 글씨를 수직 정렬 */
         text-align: left;
+        align-items: flex-start; /* 왼쪽 정렬 */
+        padding-left: 10px; /* 왼쪽 여백 최소화 */
     }
 
     .intro-text {
