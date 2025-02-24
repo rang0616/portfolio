@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+        #ns {font-family: Noto Sans KR;}
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>김휘랑 | Junior Dev</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="ns">
     <header>
+        <b>WRKIM</b>
     </header>
 
-    <section class="intro" style="display: flex; align-items: center; gap: 20px; background: none; border: none; padding: 20px;">
-        <div class="profile-pic" style="width: 160px; height: 160px; border-radius: 50%; overflow: hidden; flex-shrink: 0;">
+    <section class="intro">
+        <div class="profile-pic">
             <img src="./증명사진.JPG" alt="Profile Picture" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
         <div class="intro-text">
@@ -22,9 +27,23 @@
             <p><a href="mailto:rang616@naver.com" style="color: grey; text-decoration: none; cursor: pointer; font-size: 10px;">Email</a></p>
         </div>
     </section>
+
+    <section class="myself">
+        <div class="myself-text">
+            <h3>저는 제 자신을 "노력형 개발자"이라고 소개하고 싶습니다.</h3>
+            <ul>
+                <li>제가 생각하는 개발자는 해당 분야에 대한 지식을 쌓기 위한 노력, 효율적이고 깔끔한 코드 개발을 위한 노력, 테스트를 통한 장애 발생을 낮추기 위한 노력이 필요하다고 생각합니다.</li>
+                <li>저는 통신, 네트워크 분야에서 근무하면서 5G Core Network Function의 기능과 여러 인터페이스 개발에 참여했습니다.</li>
+                <li>여러 자격증을 공부하여 해당 분야의 지식을 쌓았고, 효율적이고 깔끔한 코드 개발을 위하여 개발 과정에서 여러 선배들과의 통신 규격 분석, 설계 세미나를 진행하였습니다.</li>
+                <li>또한, 장애 발생을 줄이기 위한 노력으로 자체 개발자 테스트를 진행하였습니다.</li>
+                <li>이와같은 지속적인 노력을 통해 제 자신을 발전시켜 더 나은 개발자가 되도록 노력하겠습니다.</li>
+            </ul>
+
+        </div>
+    </section>
     
     <section class="experience">
-        <h1>Work Experience</h1>
+        <h1>Work Experience.</h1><hr/>
         <div class="job">
             <h3>Contela. Inc</h3>
             <p>Communication Network Engineer (2020. 11 ~ )</p>
@@ -37,13 +56,13 @@
     </section>
     
     <section class="education">
-        <h1>Education</h1>
+        <h1>Education.</h1>
         <p>한국기술교육대학교 (2014. 03 - 2021. 02)</p>
         <p>전기전자통신공학부 정보통신공학과</p>
     </section>
     
     <section class="certificates">
-        <h1>Certificates</h1>
+        <h1>Certificates.</h1>
         <ul>
             <li>리눅스마스터 2급 (2024. 10) - 한국정보통신진흥협회</li>
             <li>SQLD (2023. 12) - 한국데이터베이스진흥센터</li>
