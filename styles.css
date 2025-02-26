@@ -150,7 +150,6 @@ h4 {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 15px;
 }
 
 .company-info hr {
@@ -166,6 +165,11 @@ h4 {
 
 .job-right h2 {
     margin-top: 0;
+}
+
+.project {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .project-summary {
@@ -221,7 +225,6 @@ h4 {
         flex-direction: column; /* 모바일에서는 글씨를 수직 정렬 */
         text-align: left;
         align-items: flex-start; /* 왼쪽 정렬 */
-        padding-left: 10px; /* 왼쪽 여백 최소화 */
     }
 
     .intro-text {
@@ -239,12 +242,26 @@ h4 {
 
     .job {
         flex-direction: column;
-        text-align: center;
+        align-items: flex-start; /* 전체 컨텐츠 왼쪽 정렬 */
     }
 
     .job-left {
         width: 100%;
         position: static;
+        display: flex;  /* 가로 배치 */
+        flex-direction: row;
+        justify-content: center; /* 가운데 정렬 */
+        text-align: center;
+        align-items: center;  /* 세로 중앙 정렬 */
+        gap: 15px; /* 로고와 텍스트 사이 간격 */
+        padding: 15px;
+    }
+
+    .job-left-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left; /* 텍스트는 왼쪽 정렬 유지 */
     }
 
     .job-divider {
@@ -253,5 +270,9 @@ h4 {
 
     .job-right {
         padding-left: 0;
+    }
+
+    .company-info {
+        display: none;
     }
 }
